@@ -3,7 +3,7 @@ import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import { Layout } from "@/components/layouts";
 import { Grid, Card, Text, Button, Container } from "@nextui-org/react";
 import Image from "next/image";
-import confetti from "canvas-confetti"
+// import confetti from "canvas-confetti"
 import { useState, useEffect } from "react";
 
 
@@ -45,12 +45,12 @@ const OnePokemon: NextPage<Props> = ({pokemon})=>{
 
         if(isFav) return
 
-        confetti({
-            angle: 90,
-            spread: 60,
-            particleCount: 65,
-            origin: { y: 0.6 }
-        });
+        // confetti({
+        //     angle: 90,
+        //     spread: 60,
+        //     particleCount: 65,
+        //     origin: { y: 0.6 }
+        // });
         
     }
 

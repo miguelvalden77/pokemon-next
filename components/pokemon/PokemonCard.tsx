@@ -2,7 +2,7 @@ import { Pokemon } from "@/interfaces"
 import { Card, Grid, Row, Text } from "@nextui-org/react"
 import {useRouter} from "next/router"
 import { FunctionComponent } from "react"
-import confetti from "canvas-confetti"
+// import confetti from "canvas-confetti"
 
 interface Props {
     pokemon: Pokemon,

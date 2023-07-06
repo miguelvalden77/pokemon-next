@@ -6,7 +6,7 @@ import { GetStaticPaths, GetStaticProps, NextPage } from "next"
 import Image from "next/image"
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
-import confetti from "canvas-confetti"
+// import confetti from "canvas-confetti"
 
 interface Props {
     pokemon: any
@@ -47,12 +47,12 @@ const PokemonPage: NextPage<Props> = ({pokemon}) =>{
 
         if(isFav) return
 
-        confetti({
-            angle: 90,
-            spread: 60,
-            particleCount: 65,
-            origin: { y: 0.6 }
-        });
+        // confetti({
+        //     angle: 90,
+        //     spread: 60,
+        //     particleCount: 65,
+        //     origin: { y: 0.6 }
+        // });
         
     }
 

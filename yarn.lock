@@ -831,6 +831,11 @@
   dependencies:
     "tslib" "^2.4.0"
 
+"@types/canvas-confetti@^1.6.0":
+  "integrity" "sha512-Yq6rIccwcco0TLD5SMUrIM7Fk7Fe/C0jmNRxJJCLtAF6gebDkPuUjK5EHedxecm69Pi/aA+It39Ux4OHmFhjRw=="
+  "resolved" "https://registry.npmjs.org/@types/canvas-confetti/-/canvas-confetti-1.6.0.tgz"
+  "version" "1.6.0"
+
 "@types/node@20.3.2":
   "integrity" "sha512-vOBLVQeCQfIcF/2Y7eKFTqrMnizK5lRNQ7ykML/5RuwVXVWxYkgwS7xbt4B6fKCUPgbSL5FSsjHQpaGQP/dQmw=="
   "resolved" "https://registry.npmjs.org/@types/node/-/node-20.3.2.tgz"

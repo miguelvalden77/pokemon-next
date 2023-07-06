@@ -6,6 +6,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         {CssBaseline.flush()}
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
       </Head>
       <body>
         <Main />
